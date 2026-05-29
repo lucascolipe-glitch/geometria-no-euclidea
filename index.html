@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cuadriláteros trirectángulos</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f7f7f7;
+      color: #222;
+    }
+
+    header {
+      background-color: #283593;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 30px;
+      background-color: white;
+    }
+
+    h1, h2 {
+      color: #283593;
+    }
+
+    .imagen {
+      text-align: center;
+      margin: 30px 0;
+    }
+
+    .imagen img {
+      max-width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #aaa;
+    }
+
+    .grafico3d {
+      margin: 30px 0;
+      text-align: center;
+    }
+
+    iframe {
+      width: 100%;
+      height: 600px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    .nota {
+      background-color: #eef2ff;
+      border-left: 5px solid #283593;
+      padding: 15px;
+      margin: 20px 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #ddd;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Los cuadriláteros trirectángulos</h1>
+    <p>Una comparación entre geometría euclídea, elíptica e hiperbólica</p>
+  </header>
+
+  <main>
+
+    <section>
+      <h2>¿Qué es un cuadrilátero trirectángulo?</h2>
+
+      <p>
+        Un cuadrilátero trirectángulo es una figura con tres ángulos rectos.
+        El cuarto ángulo permite distinguir el tipo de geometría en la que estamos trabajando.
+      </p>
+
+      <div class="nota">
+        <p>
+          Si el cuarto ángulo es recto, estamos en geometría euclídea.
+          Si es obtuso, aparece la geometría elíptica.
+          Si es agudo, aparece la geometría hiperbólica.
+        </p>
+      </div>
+    </section>
+
+    <section class="imagen">
+      <h2>Comparación de geometrías</h2>
+
+      <!-- Cambiar el nombre del archivo por el nombre real de tu imagen -->
+      <img src="cuadrilateros-trirectangulos.png" 
+           alt="Comparación de cuadriláteros trirectángulos en geometría euclídea, elíptica e hiperbólica">
+    </section>
+
+    <section class="grafico3d">
+      <h2>Gráfico 3D interactivo</h2>
+
+      <p>
+        A continuación se muestra un gráfico 3D generado con Asymptote.
+      </p>
+
+      <!-- Cambiar este nombre por el archivo HTML generado con Asymptote -->
+      <iframe src="grafico3d.html">
+        Tu navegador no permite visualizar este gráfico.
+      </iframe>
+    </section>
+
+    <section>
+      <h2>El cuarto ángulo y el tipo de geometría</h2>
+
+      <p>
+        El comportamiento del cuarto ángulo permite clasificar la geometría:
+      </p>
+
+      <ul>
+        <li><strong>\( \angle C = 90^\circ \)</strong>: geometría euclídea.</li>
+        <li><strong>\( \angle C > 90^\circ \)</strong>: geometría elíptica.</li>
+        <li><strong>\( \angle C < 90^\circ \)</strong>: geometría hiperbólica.</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Material de geometría no euclídea</p>
+  </footer>
+
+</body>
+</html>
